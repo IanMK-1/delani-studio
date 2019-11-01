@@ -24,3 +24,11 @@
 #clicklogo {
     padding-top: 150px;
 }
+.aboutus {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.aboutus h2 {
+    padding-top: 20px;
+    font: bold;
+}
