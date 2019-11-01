@@ -3,4 +3,8 @@ $(document).ready(function(){
         $(".designimg").toggle();
         $(".design").toggle();
     });
+    $(".serv2").click(function(){
+        $(".devpimg").toggle();
+        $(".devp").toggle();
+    });
 });
