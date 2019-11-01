@@ -7,4 +7,8 @@ $(document).ready(function(){
         $(".devpimg").toggle();
         $(".devp").toggle();
     });
+    $(".serv3").click(function(){
+        $(".productimg").toggle();
+        $(".product").toggle();
+    });
 });

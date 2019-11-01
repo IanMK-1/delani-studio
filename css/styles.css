@@ -77,7 +77,22 @@
 }
 .devp h5 {
     font-weight: bold;
+    padding-top: 20px;
 }
 .devpimg img{
+    margin: auto;
+}
+.serv3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.product {
+    display: none;
+}
+.product h5 {
+    font-weight: bold;
+    padding-top: 20px;
+}
+.productimg img{
     margin: auto;
 }
