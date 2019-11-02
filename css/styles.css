@@ -115,7 +115,7 @@
     position: relative;
 }
 .portf img{ 
-    margin-left: 150px;   
+    margin-left: 0px;   
     width: 150px;
     height: 150px;
 
@@ -123,9 +123,32 @@
 .text {
     display: none;
     position: absolute; 
-    margin-left: 170px;
+    margin-left: 15px;
     margin-top: -110px;
     margin-right: 1050px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: white;
+    color: black; 
+    font-family: 'Raleway', sans-serif; 
+}
+.portf1 {
+    margin-bottom: 30px;
+    position: relative;
+}
+.portf1 img{ 
+    margin-left: -130px;   
+    width: 150px;
+    height: 150px;
+
+}
+.text1 {
+    display: none;
+    position: absolute; 
+    margin-left: -105px;
+    margin-top: -110px;
+    margin-right: 780px;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;

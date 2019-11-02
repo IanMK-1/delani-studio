@@ -13,9 +13,16 @@ $(document).ready(function(){
     });
     $(".portf").hover(
     function(){
-        $(this).find(".text").fadeIn(1000);
+        $(this).find(".text").fadeIn(500);
     },
     function(){
-        $(this).find(".text").fadeOut(1000);
+        $(this).find(".text").fadeOut(500);
+    });
+    $(".portf1").hover(
+    function(){
+        $(this).find(".text1").fadeIn(500);
+    },
+    function(){
+        $(this).find(".text1").fadeOut(500);
     });
 });
