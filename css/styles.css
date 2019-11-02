@@ -202,7 +202,20 @@
     color: black; 
     font-family: 'Raleway', sans-serif; 
 }
-
+.contact {
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;                    
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+.contact h3 {
+    color: white;
+    text-align: center; 
+    padding-top: 50px;
+}
 
 
 
