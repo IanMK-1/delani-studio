@@ -40,3 +40,18 @@ $(document).ready(function(){
         $(this).find(".text3").fadeOut(500);
     });
 });
+
+function msg(){
+    var names = document.getElementById("name").value;
+    var emails = document.getElementById("email".value);
+    var messages = document.getElementById("message").value;
+    if(messages==""||messages==null){
+        alert("Please enter your query/message");
+    }
+    alert(names +" we have received your message. Thank you for reaching out to us.");
+
+   var frm = document.getElementsByClassName("form-inline");
+   frm.submit(); // Submit
+   frm.reset();  // Reset
+   return false;
+}
