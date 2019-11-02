@@ -239,6 +239,14 @@
     padding-bottom: 250px;
     padding-right: 620px;
 }
+.btn {
+    background-color: transparent;
+    text-align: center;
+    margin-left: 40%;
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+}
 
 
 
