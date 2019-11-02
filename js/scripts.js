@@ -46,7 +46,7 @@ function msg(){
     var emails = document.getElementById("email").value;
     var messages = document.getElementById("message").value;
     if(messages==""||messages==null||names==""||names==null){
-        alert("Please enter your query/message");
+        alert("Please enter your message or name");
     }
     else {
         alert(names +" we have received your message. Thank you for reaching out to us.");

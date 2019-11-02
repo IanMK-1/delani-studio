@@ -218,34 +218,35 @@
     padding-bottom: 10px;
 }
 .form-inline {
-    margin-left: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
-.form-group {
-    padding-left: 20px;
-    padding-top: 20px;
-}
-.form-control {
-    padding-right: 200px;
+.form-control { 
+    padding-right: 50%;
+    margin-top: 10px;
     background-color: transparent;
     
 }
-.form-group ::placeholder {
+.col-md-6 ::placeholder {
     color: white; 
+    
+}
+.col-md-12 ::placeholder {
+    color: white; 
+    padding-top: 30px;
 }
 #message {
-    padding-top: 25px;
-    margin-left: 15px;
-    padding-bottom: 250px;
-    padding-right: 620px;
+    padding-bottom: 300px;
+    padding-right: 76%;
 }
 .btn {
     background-color: transparent;
     text-align: center;
-    margin-left: 40%;
     color: white;
     border-color: white;
     margin-top: 15px;
+    margin-left: 47%;
 }
 
 
