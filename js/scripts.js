@@ -25,4 +25,11 @@ $(document).ready(function(){
     function(){
         $(this).find(".text1").fadeOut(500);
     });
+    $(".portf2").hover(
+    function(){
+        $(this).find(".text2").fadeIn(500);
+    },
+    function(){
+        $(this).find(".text2").fadeOut(500);
+    });
 });
