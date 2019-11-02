@@ -256,6 +256,11 @@
 .socialmedia a {
     padding-left: 10px;
 }
-
+.tm {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 
 
