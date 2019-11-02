@@ -11,4 +11,11 @@ $(document).ready(function(){
         $(".productimg").toggle();
         $(".product").toggle();
     });
+    $(".portf").hover(
+    function(){
+        $(this).find(".text").fadeIn(1000);
+    },
+    function(){
+        $(this).find(".text").fadeOut(1000);
+    });
 });
