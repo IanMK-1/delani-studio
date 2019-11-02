@@ -43,15 +43,15 @@ $(document).ready(function(){
 
 function msg(){
     var names = document.getElementById("name").value;
-    var emails = document.getElementById("email".value);
+    var emails = document.getElementById("email").value;
     var messages = document.getElementById("message").value;
-    if(messages==""||messages==null){
+    if(messages==""||messages==null||names==""||names==null){
         alert("Please enter your query/message");
     }
-    alert(names +" we have received your message. Thank you for reaching out to us.");
-
-   var frm = document.getElementsByClassName("form-inline");
-   frm.submit(); // Submit
-   frm.reset();  // Reset
-   return false;
+    else {
+        alert(names +" we have received your message. Thank you for reaching out to us.");
+    }
+    document.getElementById("name").value="";
+    document.getElementById("email").value="";
+    document.getElementById("message").value="";
 }
