@@ -32,4 +32,11 @@ $(document).ready(function(){
     function(){
         $(this).find(".text2").fadeOut(500);
     });
+    $(".portf3").hover(
+    function(){
+        $(this).find(".text3").fadeIn(500);
+    },
+    function(){
+        $(this).find(".text3").fadeOut(500);
+    });
 });
