@@ -207,7 +207,7 @@
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
-    height: 500px;
+    height: 580px;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 30px;
 }
@@ -215,6 +215,29 @@
     color: white;
     text-align: center; 
     padding-top: 50px;
+    padding-bottom: 10px;
+}
+.form-inline {
+    margin-left: 200px;
+    
+}
+.form-group {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.form-control {
+    padding-right: 200px;
+    background-color: transparent;
+    
+}
+.form-group ::placeholder {
+    color: white; 
+}
+#message {
+    padding-top: 25px;
+    margin-left: 15px;
+    padding-bottom: 250px;
+    padding-right: 620px;
 }
 
 
