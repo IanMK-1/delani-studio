@@ -115,19 +115,18 @@
     position: relative;
 }
 .portf img{ 
-    margin-left: 0px;   
-    width: 150px;
-    height: 150px;
-
+    margin: auto;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
 }
 .text {
     display: none;
     position: absolute; 
-    margin-left: 15px;
-    margin-top: -110px;
-    margin-right: 1050px;
-    padding-right: 20px;
-    padding-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: white;
     color: black; 
@@ -138,19 +137,19 @@
     position: relative;
 }
 .portf1 img{ 
-    margin-left: 0px;   
-    width: 150px;
-    height: 150px;
+    margin: auto;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
 
 }
 .text1 {
     display: none;
     position: absolute; 
-    margin-left: 25px;
-    margin-top: -110px;
-    margin-right: 780px;
-    padding-right: 20px;
-    padding-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: white;
     color: black; 
@@ -161,19 +160,19 @@
     position: relative;
 }
 .portf2 img{ 
-    margin-left: 0px;   
-    width: 150px;
-    height: 150px;
+    margin: auto;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
 
 }
 .text2 {
     display: none;
     position: absolute; 
-    margin-left: 25px;
-    margin-top: -110px;
-    margin-right: 780px;
-    padding-right: 20px;
-    padding-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: white;
     color: black; 
@@ -184,19 +183,19 @@
     position: relative;
 }
 .portf3 img{ 
-    margin-left: 0px;   
-    width: 150px;
-    height: 150px;
+    margin: auto;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 
 }
 .text3 {
     display: none;
     position: absolute; 
-    margin-left: 25px;
-    margin-top: -110px;
-    margin-right: 780px;
-    padding-right: 20px;
-    padding-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: white;
     color: black; 

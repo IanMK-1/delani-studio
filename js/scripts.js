@@ -51,6 +51,7 @@ function msg(){
     else {
         alert(names +" we have received your message. Thank you for reaching out to us.");
     }
+    
     document.getElementById("name").value="";
     document.getElementById("email").value="";
     document.getElementById("message").value="";
